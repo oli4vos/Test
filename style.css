@@ -1,0 +1,75 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+ 
+/* Chatbot stijlen */
+.chat-area {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.message {
+    max-width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.chatbot {
+    align-self: flex-start;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+/* Input veld en verzendknop */
+.input-area {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
