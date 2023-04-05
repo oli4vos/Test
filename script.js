@@ -2,7 +2,7 @@ const chatArea = document.getElementById('chatArea');
 const userInput = document.getElementById('userInput');
 const sendButton = document.getElementById('sendButton');
 
-const openaiApiKey = prompt('Please enter your OpenAI API key:'); // Replace with your own API key
+const openaiApiKey = prompt('Vul hier je OpenAI API key in:'); // Replace with your own API key
 
 async function generateChatbotResponse(prompt) {
     const apiUrl = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
